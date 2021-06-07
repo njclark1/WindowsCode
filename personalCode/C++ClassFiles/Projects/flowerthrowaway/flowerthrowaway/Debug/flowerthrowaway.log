@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\nickj\Desktop\school\c++\Projects\flowerthrowaway\flowerthrowaway\Source.cpp(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\nickj\Desktop\school\c++\Projects\flowerthrowaway\flowerthrowaway\Source.cpp(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  flowerthrowaway.vcxproj -> C:\Users\nickj\Desktop\school\c++\Projects\flowerthrowaway\Debug\flowerthrowaway.exe

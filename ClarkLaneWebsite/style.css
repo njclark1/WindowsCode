@@ -1,0 +1,159 @@
+/*
+main html body styling
+*/
+
+/*background*/
+body { 
+    background-color: rgb(83, 56, 20);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*background image(uncomment to apply)*/
+    background-image: url(img/background.jpg);
+}
+
+/*banner image*/
+.banner {
+  position: relative;
+}
+
+/*logo*/
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 44%;
+}
+
+/*banner text*/
+.bannertext {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position:absolute;
+  top: 30%;
+  left: 25%;
+  font-size: 100px;
+  color:black;
+}
+
+/*Default text formatting*/
+p {
+    color: mintcream;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+/*Main Page Text*/
+.maintop {
+  font-size: x-large;
+}
+.maintext {
+    font-size: medium;
+}
+
+
+/* Contact Us Button */
+  button{
+    background-color: burlywood;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: mintcream;
+  }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: burlywood;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content:hover{
+    background-color:burlywood;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: mintcream;}
+
+
+    /*application download link button*/
+    .appdownload {
+      font-size: 15px;
+      display: block;
+      text-align: center;
+      align-items: center;
+      margin-left:42%;
+      margin-right:42%;
+      background: #00A9D4;
+      color:black;
+      padding: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+/*apply-email image*/
+.emailimage {
+  width: 300px;
+}
+/*contact email image*/
+.contactimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+/*primary images*/
+.propertyimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+/*email address on image(uncomment to apply)
+.emailaddress {
+  position: absolute;
+  top: 52%;
+  left: 43.5%;
+}*/
