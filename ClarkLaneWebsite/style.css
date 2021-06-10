@@ -44,19 +44,97 @@ h1 {
 
 h1, h2, p {
   display: block;
-    text-align: center;
+  text-align: center;
+}
+
+.contactText {
+  background-color: burlywood;
+  color: black;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5px;
+  font-size: 60px;
 }
 
 /*Main Page Text*/
 .maintop {
-  font-size: x-large;
+  display: block;
+  text-align: center;
+  background-color: burlywood;
+  color: black;
+  padding: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .maintext {
-    font-size: medium;
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: burlywood;
+  color: black;
+}
+
+/*property header text*/
+.propertyHeader {
+  background-color: burlywood;
+  color: black;
+  text-align: center;
+  margin-left: 37%;
+  margin-right: 37%;
+  padding: 5px;
+  font-size: 60px;
+}
+
+/*property details text*/
+.propertyDetails {
+  display: block;
+  text-align: center;
+  background-color: burlywood;
+  color: black;
+  padding: 5px;
+}
+
+/*Criteria text1*/
+.pleaseSend {
+  display: block;
+  text-align: center;
+  background-color: burlywood;
+  color: black;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*Criteria text2*/
+.pleaseReview {
+  display: block;
+  text-align: center;
+  background-color: burlywood;
+  color: black;
+  padding: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*criteria links*/
 .criteria {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 42%;
+  margin-right: 42%;
+  background-color: #00A9D4;
+  color: black;
+}
+
+/*zillow links*/
+.zillow {
   display: block;
   font-size: 40px;
   text-align: center;
@@ -76,7 +154,7 @@ h1, h2, p {
   padding: 15px;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: white;
+  background-color: burlywood;
   color: black;
 }
 
