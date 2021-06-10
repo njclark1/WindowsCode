@@ -19,7 +19,7 @@ body {
 .logo {
   position: absolute;
   top: 10%;
-  left: 44%;
+  left: 45%;
 }
 
 /*banner text*/
@@ -42,7 +42,8 @@ h1 {
     font-size: 60px;
 }
 
-h1, p {
+h1, h2, p {
+  display: block;
     text-align: center;
 }
 
@@ -52,6 +53,31 @@ h1, p {
 }
 .maintext {
     font-size: medium;
+}
+
+/*criteria links*/
+.criteria {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 42%;
+  margin-right: 42%;
+  background-color: #00A9D4;
+  color: black;
+}
+
+/*criteria text*/
+.criteriaText {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  color: black;
 }
 
 
@@ -64,6 +90,7 @@ h1, p {
     border: none;
     cursor: pointer;
   }
+
   button:hover {
     background-color: mintcream;
   }
@@ -115,28 +142,47 @@ h1, p {
   .dropdown:hover .dropbtn {background-color: mintcream;}
 
 
-    /*application download link button*/
-    .appdownload {
-      font-size: 15px;
-      display: block;
-      text-align: center;
-      align-items: center;
-      margin-left:42%;
-      margin-right:42%;
-      background: #00A9D4;
-      color:black;
-      padding: 15px;
-      cursor: pointer;
-      border-radius: 5px;
-      text-decoration: none;
-    }
+  /*application download link button*/
+  .appdownload {
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-left:42%;
+    margin-right:42%;
+    background: #00A9D4;
+    color:black;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+  }
 
 /*apply-email image*/
 .emailimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
 }
 /*contact email image*/
 .contactimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+/*contact email image*/
+.contactimage2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+/*phone image*/
+.phoneimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -151,9 +197,99 @@ h1, p {
   width: 300px;
 }
 
-/*email address on image(uncomment to apply)
-.emailaddress {
-  position: absolute;
-  top: 52%;
-  left: 43.5%;
-}*/
+/*contact page image handling*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.contactImagesColumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after image containers */
+.contactImagesRow::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+/*Brittany page image handling*/
+.brittanyImagesColumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after image containers */
+.brittanyImagesRow::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+/*Chelsea page image handling*/
+.chelseaImagesColumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after image containers */
+.chelseaImagesRow::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+/*Gondola page image handling*/
+.gondolaImagesColumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after image containers */
+.gondolaImagesRow::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+/*Panda page image handling*/
+.pandaImagesColumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after image containers */
+.pandaImagesRow::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+/*Victoria page image handling*/
+.victoriaImagesColumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after image containers */
+.victoriaImagesRow::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
