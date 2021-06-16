@@ -4,22 +4,34 @@ main html body styling
 
 /*background*/
 body { 
-    background-color: rgb(83, 56, 20);
+    background-color:rgb(190, 249, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 /*background image(uncomment to apply)*/
-    background-image: url(img/background.jpg);
 }
 
 /*banner image*/
 .banner {
   position: relative;
+  z-index: 1;
 }
 
 /*logo*/
 .logo {
   position: absolute;
-  top: 10%;
-  left: 45%;
+  top: -20%;
+  left: 42%;
+  width: 300px;
+  z-index: 2;
+}
+
+.line {
+  background-color: rgb(127, 202, 252);  
+  margin-bottom: 7px;  
+  margin-right: auto;  
+  margin-left: auto;  
+  margin-top: 9px;  
+  border-width: 1px;  
+  border-color: rgb(127, 202, 252);  
 }
 
 /*banner text*/
@@ -48,7 +60,7 @@ h1, h2, p {
 }
 
 .contactText {
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
   text-align: center;
   margin-left: 15%;
@@ -61,7 +73,7 @@ h1, h2, p {
 .maintop {
   display: block;
   text-align: center;
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
   padding: 5px;
   margin-left: 30%;
@@ -73,13 +85,13 @@ h1, h2, p {
   padding: 15px;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
 }
 
 /*property header text*/
 .propertyHeader {
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
   text-align: center;
   margin-left: 37%;
@@ -92,7 +104,7 @@ h1, h2, p {
 .propertyDetails {
   display: block;
   text-align: center;
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
   padding: 5px;
 }
@@ -101,7 +113,7 @@ h1, h2, p {
 .pleaseSend {
   display: block;
   text-align: center;
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
   padding: 5px;
   margin-left: 10%;
@@ -112,7 +124,7 @@ h1, h2, p {
 .pleaseReview {
   display: block;
   text-align: center;
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
   padding: 5px;
   margin-left: 10%;
@@ -129,8 +141,8 @@ h1, h2, p {
   text-decoration: none;
   margin-left: 42%;
   margin-right: 42%;
-  background-color: #00A9D4;
-  color: black;
+  background-color: blue;
+  color: white;
 }
 
 /*zillow links*/
@@ -143,8 +155,8 @@ h1, h2, p {
   text-decoration: none;
   margin-left: 42%;
   margin-right: 42%;
-  background-color: #00A9D4;
-  color: black;
+  background-color: blue;
+  color: white;
 }
 
 /*criteria text*/
@@ -154,14 +166,14 @@ h1, h2, p {
   padding: 15px;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: burlywood;
+  background-color: rgb(127, 202, 252);
   color: black;
 }
 
 
 /* Contact Us Button */
   button{
-    background-color: burlywood;
+    background-color: rgb(127, 202, 252);
     color: black;
     padding: 16px;
     font-size: 16px;
@@ -175,7 +187,7 @@ h1, h2, p {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: burlywood;
+    background-color: rgb(127, 202, 252);
     color: black;
     padding: 16px;
     font-size: 16px;
@@ -192,7 +204,7 @@ h1, h2, p {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: burlywood;
+    background-color: rgb(127, 202, 252);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -207,7 +219,7 @@ h1, h2, p {
     display: block;
   }
   .dropdown-content:hover{
-    background-color:burlywood;
+    background-color:rgb(127, 202, 252);
   }
   
   /* Change color of dropdown links on hover */
@@ -228,8 +240,8 @@ h1, h2, p {
     align-items: center;
     margin-left:42%;
     margin-right:42%;
-    background: #00A9D4;
-    color:black;
+    background:blue;
+    color:white;
     padding: 15px;
     cursor: pointer;
     border-radius: 5px;
