@@ -1,0 +1,16 @@
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.exe
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.deps.json
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.json
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.runtimeconfig.dev.json
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.dll
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\bin\Debug\net5.0\ref\HelloWorld.dll
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\bin\Debug\net5.0\HelloWorld.pdb
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.csprojAssemblyReference.cache
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfoInputs.cache
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.AssemblyInfo.cs
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.dll
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\ref\HelloWorld.dll
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.pdb
+E:\WindowsCode\C#Projects\HelloWorld\HelloWorld\obj\Debug\net5.0\HelloWorld.genruntimeconfig.cache

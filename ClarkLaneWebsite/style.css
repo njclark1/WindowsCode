@@ -94,9 +94,9 @@ h1, h2, p {
   background-color: rgb(127, 202, 252);
   color: black;
   text-align: center;
-  margin-left: 37%;
-  margin-right: 37%;
-  padding: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: auto;
   font-size: 60px;
 }
 
