@@ -6,7 +6,7 @@ main html body styling
 body { 
     background-color:rgb(190, 249, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin: 0;
 /*background image(uncomment to apply)*/
 }
 
@@ -16,11 +16,17 @@ body {
   z-index: 1;
 }
 
+/*banner image*/
+.bannerImage {
+  object-fit: cover;
+}
+
 /*logo*/
 .logo {
   position: absolute;
   top: -20%;
-  left: 42%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 300px;
   z-index: 2;
 }
@@ -306,7 +312,7 @@ h1, h2, p {
   width: 300px;
 }
 
-/*primary images*/
+/*primary images*/ 
 .propertyimage {
   display: block;
   margin-left: auto;
