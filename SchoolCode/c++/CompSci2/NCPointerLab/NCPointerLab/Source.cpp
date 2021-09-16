@@ -1,7 +1,5 @@
 //programmer: Nickj.clark14@gmail.com
 //date: 2021 09 14
-//modi date:
-//purpose: 
 
 //include statements
 #include <iostream>
@@ -16,7 +14,8 @@ using namespace std;
 int getNumTestScores();
 double getTestScores();
 double getAverageScore(int, double*);
-void sortArrayAscending(int, double*);
+void bubbleSortArray(int, double*);
+
 
 //main function
 int main()
@@ -33,14 +32,17 @@ int main()
 	//get the average test score
 	double testScoreAverage = getAverageScore(numberOfTestScores, myArray);
 
-	//output the array in ascending order
-	sortArrayAscending(numberOfTestScores, myArray);
+	//sort array function
+	bubbleSortArray(numberOfTestScores, myArray);
+
+	//output sorted array values
+	cout << "\nTest scores in ascending order:\n" << endl;
 	for (int i = 0; i < numberOfTestScores; i++) {
-		cout << fixed << setprecision(2) << "Score " << i+1 << " is: " << myArray[i] << "%\n";
+		cout << fixed << setprecision(2) << "Score " << i+1 << ": " << myArray[i] << "%\n" << endl;
 	}
 
-	//output to user
-	cout << fixed << setprecision(2) << "\nThe average test score is: " << testScoreAverage << "%" << endl;
+	//output average to user
+	cout << fixed << setprecision(2) << "The average test score is: " << testScoreAverage << "%" << endl;
 
 	//delete pointer values
 	delete[]myArray;
@@ -50,9 +52,15 @@ int main()
 	return 0;
 }
 
-//sort the array in ascending order
-void sortArrayAscending(int numScores, double* scoreArray) {
-	sort(scoreArray, scoreArray + numScores);
+//sort array in ascending order
+void bubbleSortArray(int numScores, double* scoreArray) {
+	for (int counter = 0; counter < numScores - 1; counter++) {
+		for (int counter2 = 0; counter2 < numScores - counter - 1; counter2++) {
+			if (scoreArray[counter2] > scoreArray[counter2 + 1]) {
+				swap(scoreArray[counter2], scoreArray[counter2 + 1]);
+			}
+		}
+	}
 }
 
 //Get average test score
@@ -77,7 +85,7 @@ int getNumTestScores()
 
 	while (num < 1)
 	{
-		cout << "That is not a valid number.\n";
+		cout << "That is not a valid number.\n" << endl;
 		cout << "\nHow many test scores?: ";
 		cin >> num;
 	}
@@ -93,7 +101,7 @@ double getTestScores()
 	cin >> score;
 	
 	while (score < 0) {
-		cout << "that is not a valid score.\n";
+		cout << "that is not a valid score.\n" << endl;
 		cout << "\nWhat is the test score?: ";
 		cin >> score;
 	}
