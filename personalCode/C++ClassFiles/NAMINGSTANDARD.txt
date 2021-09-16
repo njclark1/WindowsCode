@@ -1,3 +1,0 @@
-project name - LastnameFirstnamecClassnameProjectname
-variable - ALWAYS USE CAMELCASE
-
