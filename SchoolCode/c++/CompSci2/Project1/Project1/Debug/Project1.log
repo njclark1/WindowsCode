@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\WindowsCode\SchoolCode\c++\CompSci2\Project1\Project1\Source.cpp(54,42): error C2664: 'double average(double [],int)': cannot convert argument 1 from 'Student *' to 'double []'
+E:\WindowsCode\SchoolCode\c++\CompSci2\Project1\Project1\Source.cpp(54,19): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+E:\WindowsCode\SchoolCode\c++\CompSci2\Project1\Project1\Source.cpp(9,8): message : see declaration of 'average'
