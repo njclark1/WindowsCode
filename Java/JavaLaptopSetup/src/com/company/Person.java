@@ -13,7 +13,7 @@ public class Person {
     boolean isSitting;
 
     //full person constructor
-    Person(String n, String g, int a, int w, String p, boolean i){
+    Person(String n, String g, int a, int w, String p, boolean i) {
         this.name = n;
         this.gender = g;
         this.age = a;
@@ -55,4 +55,14 @@ public class Person {
                 ".\n\nI currently weigh " + weight + "lbs.\n" +
                 "\nYour personality is " + personality + ", and " + sittingDialogue);
     }
+}
+class Room extends Computer {
+    Room(String n, String o, String c, String g, String mc, String ms, int rq, int rs, boolean io) {
+        super(n, o, c, g, mc, ms, rq, rs, io);
+    }
+
+    void what () {
+        System.out.println("Hi");
+    }
+
 }
