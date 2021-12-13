@@ -26,9 +26,9 @@ public class Person {
     void standUp() {
         if (isSitting == true) {
             isSitting = false;
-            System.out.println(this.name + " is now standing");
+            System.out.println(this.name + " is now standing\n");
         } else {
-            System.out.println(this.name + " is already standing");
+            System.out.println(this.name + " is already standing\n");
         }
     }//end standup
 
@@ -36,9 +36,9 @@ public class Person {
     void sitDown() {
         if (isSitting == false) {
             isSitting = true;
-            System.out.println(this.name + " is now sitting");
+            System.out.println(this.name + " is now sitting\n");
         } else {
-            System.out.println(this.name + " is already sitting");
+            System.out.println(this.name + " is already sitting\n");
         }
     }//end sitdown
 
@@ -47,12 +47,12 @@ public class Person {
     public void introduceSelf() {
         String sittingDialogue;
         if (isSitting == true) {
-            sittingDialogue = "I am currently sitting down.";
+            sittingDialogue = "You are currently sitting down.\n";
         } else {
-            sittingDialogue = "I am currently standing up.";
+            sittingDialogue = "You are currently standing up.\n";
         }
-        System.out.println("Hi, my name is " + name + ". I am a " + age + " year old " + gender +
-                ".\nI currently weigh " + weight + "lbs." +
-                "\nMy personality is " + personality + ", and " + sittingDialogue);
+        System.out.println("Hi, your name is " + name + ". You are a " + age + " year old " + gender +
+                ".\n\nI currently weigh " + weight + "lbs.\n" +
+                "\nYour personality is " + personality + ", and " + sittingDialogue);
     }
 }
