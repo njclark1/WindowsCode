@@ -6,7 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
         int numberArray[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+        String myString = "hello There";
         fizzBuzz(numberArray);
+        reverseString(myString);
     }
 
     public static void fizzBuzz(int[] s) {
@@ -23,5 +25,15 @@ public class Main {
             }
         }
         System.out.println(answer);
+    }
+
+    public static void reverseString(String s) {
+        String newString = "";
+        char myChar;
+        for (int i = 0; i < s.length(); i++) {
+            myChar = s.charAt(i);
+            newString = myChar + newString;
+        }
+        System.out.println(newString);
     }
 }
