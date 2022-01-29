@@ -11,7 +11,7 @@ import java.awt.*;
  *
  * @author Nick
  */
-public class MyClass {
+public class Main {
     public static void main(String[] args) {
         System.out.println("hello world");
         mainFrame();
