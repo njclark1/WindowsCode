@@ -37,6 +37,8 @@ public class Main {
         int fizzBuzzRange = scan.nextInt() + 1;
         PracticeFunctions.fizzBuzz(fizzBuzzRange);
         
+        scan.close();
+        
         
     }
 }
