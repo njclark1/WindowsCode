@@ -4,6 +4,8 @@
  */
 package com.mycompany.syntaxreview;
 import java.util.Scanner;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**
@@ -12,6 +14,9 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
+        
+        //open frame
+        MyFrame.mainFrame();
         
         //create scanner
         Scanner scan = new Scanner(System.in);
@@ -31,14 +36,14 @@ public class Main {
         //print addition result
         System.out.println(addedNumbers);
         
-        //run fizzbuzz function
-                //ask user for number 1
+        //run fizzbuzz function        
+        //ask user for number 1
         System.out.println("How many numbers would you like to scan?");
         int fizzBuzzRange = scan.nextInt() + 1;
         PracticeFunctions.fizzBuzz(fizzBuzzRange);
         
+        //close scanner
         scan.close();
-        
-        
     }
+    
 }
