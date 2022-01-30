@@ -13,6 +13,7 @@ import java.awt.*;
  * @author Nick
  */
 public class Main {
+    //Program main function
     public static void main(String[] args) {
         
         //open frame

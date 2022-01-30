@@ -14,18 +14,34 @@ import java.awt.event.*;
 
 public class MyFrame extends JFrame implements ActionListener {
 
+    //button for welcome message
     JButton button = new JButton("submit Name");
+    //button for fizzbuzz function
     JButton buttonNumLines = new JButton("submit numLines");
+    //button for addition function
     JButton buttonAdd = new JButton("add these");
+    //field for welcome function
     JTextField field = new JTextField(10);
+    //field for fizzbuzz function
     JTextField fieldNumLines = new JTextField(10);
+    //fields for addition function
     JTextField fieldNumAdd1 = new JTextField(10);
     JTextField fieldNumAdd2 = new JTextField(10);
 
+    //basic frame setup
     MyFrame() {
+        
+        //frame setup
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
         String frameName = "MyPracticeApp";
+        this.setVisible(true);
+        this.setSize(1200, 900);
+        this.setTitle(frameName);
+        this.setResizable(false);
+        this.getContentPane().setBackground(new Color(160, 160, 200));
+        
+        //adding buttons and fields to frame
         button.addActionListener(this);
         field.setPreferredSize(new Dimension(250, 40));
         buttonNumLines.addActionListener(this);
@@ -33,11 +49,6 @@ public class MyFrame extends JFrame implements ActionListener {
         buttonAdd.addActionListener(this);
         fieldNumAdd1.setPreferredSize(new Dimension(250, 40));
         fieldNumAdd2.setPreferredSize(new Dimension(250, 40));
-        this.setVisible(true);
-        this.setSize(1200, 900);
-        this.setTitle(frameName);
-        this.setResizable(false);
-        this.getContentPane().setBackground(new Color(160, 160, 200));
         this.add(button);
         this.add(field);
         this.add(buttonNumLines);
@@ -47,6 +58,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(fieldNumAdd2);
     }
 
+    //action listener to activate methods based on button presses
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == button) {
@@ -63,6 +75,7 @@ public class MyFrame extends JFrame implements ActionListener {
         }
     }
 
+    //Main frame of program
     public static void mainFrame() {
         //creating label for frame
         JLabel myLabel = new JLabel(); //create label
