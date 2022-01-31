@@ -12,12 +12,14 @@ import java.util.Scanner;
  */
 public class PracticeFunctions {
 
+    //addition function
     public static void addMe(int x, int y) {
         int z = x + y;
         //print addition result
         System.out.println(z);
     }
 
+    //fizzbuzz function
     public static void fizzBuzz(int length) {
 
         int numLines = length + 1;
@@ -35,6 +37,7 @@ public class PracticeFunctions {
                 System.out.println("Buzz");
             } //if neither
             else {
+                //if not divisible by either, output the number itself
                 System.out.println(i);
             }
         }

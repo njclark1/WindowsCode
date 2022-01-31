@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.syntaxreview;
+
+//imports
 import java.util.Scanner;
 import javax.swing.*;
 import java.awt.*;
@@ -10,13 +12,14 @@ import java.awt.*;
 
 /**
  *
- * @author Nick
+ * @author Nickj.clark14@gmail.com
+ * last update 01/31/2022
  */
 public class Main {
     //Program main function
     public static void main(String[] args) {
         
-        //open frame
+        //open main frame
         MyFrame.mainFrame();
     }
 }

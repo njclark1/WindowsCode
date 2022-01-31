@@ -8,6 +8,8 @@ package com.mycompany.syntaxreview;
  *
  * @author Nick - nickj.clark14@gmail.com
  */
+
+//imports
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -41,7 +43,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setResizable(false);
         this.getContentPane().setBackground(new Color(160, 160, 200));
         
-        //adding buttons and fields to frame
+        //setting button and field dimensions
         button.addActionListener(this);
         field.setPreferredSize(new Dimension(250, 40));
         buttonNumLines.addActionListener(this);
@@ -49,6 +51,8 @@ public class MyFrame extends JFrame implements ActionListener {
         buttonAdd.addActionListener(this);
         fieldNumAdd1.setPreferredSize(new Dimension(250, 40));
         fieldNumAdd2.setPreferredSize(new Dimension(250, 40));
+        
+        //adding buttons and fields to form
         this.add(button);
         this.add(field);
         this.add(buttonNumLines);
