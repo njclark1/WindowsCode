@@ -15,4 +15,13 @@ public class arraysAndLists {
     public static void printArrayValue(int a, String[] arr) {
         System.out.println(arr[a]);
     }
+
+    public static void  streamArrayList(ArrayList<String> arrayList) {
+        arrayList.stream().map(String::toLowerCase).sorted().forEach(System.out::println);
+        System.out.println("Now just items that start with \"w\"");
+        arrayList.stream().map(String::toLowerCase).filter(x -> x.startsWith("w")).sorted().forEach(System.out::println);
+        System.out.println("Now just items that contain \"board\"");
+        arrayList.stream().map(String::toLowerCase).filter(x -> x.contains("board")).sorted().forEach(System.out::println);
+
+    }
 }
