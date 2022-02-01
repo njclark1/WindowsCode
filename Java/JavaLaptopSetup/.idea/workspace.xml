@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c946b63b-378d-4f04-84a2-402e0ff0ba49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/src/com/company/MyFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JFramePractice/untitled104.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
