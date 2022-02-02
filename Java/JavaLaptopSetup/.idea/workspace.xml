@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c946b63b-378d-4f04-84a2-402e0ff0ba49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaStreamsPractice/src/GenericPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStreamsPractice/out/production/JavaStreamsPractice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamsPractice/out/production/JavaStreamsPractice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStreamsPractice/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamsPractice/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
