@@ -33,5 +33,22 @@ public class Main {
         //removes the value associated with the primitive int ib
         li.remove(ib);
         System.out.println(li);
+
+//        This section of code will create a null pointer exception demonstrating
+//        that using objects for data(Double) can create issues if null because d1 IS a pointer set to null
+
+        /*
+        final double d = 1.0d;
+        final Double d1 = null;
+        final Double d2 = (d + d1.doubleValue());
+        System.out.println(d2);
+        */
+
+//        create instance of pet using the of constructor
+        Pet luna = Pet.of(1, "Luna", "Cat", "Female", 9, 001, 002);
+//        use getter to get a field from the object
+        String lunaName = luna.getName();
+//        print result from getter
+        System.out.println(lunaName);
     }
 }
