@@ -29,10 +29,22 @@ public class Pet {
     }
 
 
-
     public static Pet of(final int pId, final String pName, final String pType, final String pGender,
                          final Integer pAge, final int pPrimaryOwnerId, final Integer pSecondaryId) {
         return new Pet(pId, pName, pType, pGender, pAge, pPrimaryOwnerId, pSecondaryId);
+    }
+
+    public static Pet ashleysPet(final int pId, final String pName, final String pType, final String pGender,
+                                 final Integer pAge, final int pPrimaryOwnerId, final Integer pSecondaryId) {
+        return new Pet(pId, pName, pType, pGender, pAge, Folks.ASHLEY, pSecondaryId);
+    }
+    public static Pet jeffsPet(final int pId, final String pName, final String pType, final String pGender,
+                                 final Integer pAge, final int pPrimaryOwnerId, final Integer pSecondaryId) {
+        return new Pet(pId, pName, pType, pGender, pAge, Folks.JEFF, pSecondaryId);
+    }
+    public static Pet eviesPet(final int pId, final String pName, final String pType, final String pGender,
+                                 final Integer pAge, final int pPrimaryOwnerId, final Integer pSecondaryId) {
+        return new Pet(pId, pName, pType, pGender, pAge, Folks.EVIE, pSecondaryId);
     }
 
     //    This entire setup is for if you really need to cache the hash for something, but also need age to be mutable.
@@ -64,6 +76,9 @@ public class Pet {
     public int hashCode() {
         return 15;
     }*/
+
+//    collections time
+//    sets, lists, and maps
 
 
 }
