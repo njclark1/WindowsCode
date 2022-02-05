@@ -6,13 +6,14 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration;
 import java.sql.*;
 
-
 public class Person {
 
-    int id;
-    String firstName;
-    String lastName;
+    //properties
+    private int id;
+    private String firstName;
+    private String lastName;
 
+    //getters and setters
     public int getId() {
         return id;
     }
@@ -37,6 +38,7 @@ public class Person {
         this.lastName = lastName;
     }
 
+    //constructor
     public Person(int id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
