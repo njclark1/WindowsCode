@@ -13,15 +13,15 @@ public class Controller {
 //        return "hello";
 //    }
 
-    @GetMapping("/firstname")
-    public String firstname(@RequestHeader String firstname) {
-        return "hello " + firstname;
-    }
-
-    @GetMapping("hello/{lastname}")
-    public String lastname(@RequestParam String lastname) {
-        return "hello " + lastname;
-    }
+//    @GetMapping("/firstname")
+//    public String firstname(@RequestHeader String firstname) {
+//        return "hello " + firstname;
+//    }
+//
+//    @GetMapping("hello/{lastname}")
+//    public String lastname(@RequestParam String lastname) {
+//        return "hello " + lastname;
+//    }
 
     @GetMapping("/hello")
     public String hello(@RequestHeader String firstname, @RequestParam String lastname) {
