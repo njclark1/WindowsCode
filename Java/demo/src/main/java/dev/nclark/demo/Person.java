@@ -5,7 +5,9 @@ import lombok.Setter;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration;
 import java.sql.*;
+import javax.*;
 
+<<<<<<< Updated upstream
 public class Person {
 
     //properties
@@ -15,10 +17,26 @@ public class Person {
 
     //getters and setters
     public int getId() {
+=======
+@Entity
+public class Person {
+
+    private long id;
+    private String firstName;
+    private String lastName;
+
+    public Person(long id, String firstName, String lastName) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public long getId() {
+>>>>>>> Stashed changes
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -38,10 +56,20 @@ public class Person {
         this.lastName = lastName;
     }
 
+<<<<<<< Updated upstream
     //constructor
     public Person(int id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
+=======
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+>>>>>>> Stashed changes
     }
 }
