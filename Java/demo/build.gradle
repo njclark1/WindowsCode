@@ -4,6 +4,8 @@ plugins {
 	id 'java'
 }
 
+
+
 group = 'dev.nclark'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
@@ -20,10 +22,14 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'dev.the-fireplace:Erroring-Entity-Remover:1.0.2+1.18'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+
 }
 
 tasks.named('test') {
