@@ -28,4 +28,4 @@ public class Controller {
         return "hello " + firstname + " " + lastname;
     }
 }
-//requestmappingß
+//requestmapping
