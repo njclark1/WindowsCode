@@ -1,0 +1,6 @@
+open new terminal 4:dash
+
+type "node" then the path of your file
+
+you can copy the filepath from the side panel 
+and ctr+shift+v to paste in terminal
