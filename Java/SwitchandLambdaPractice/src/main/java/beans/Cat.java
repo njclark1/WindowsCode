@@ -1,6 +1,6 @@
 package beans;
 
-import lombok.*;
+import lombok.Data;
 
 @Data
 public class Cat {
